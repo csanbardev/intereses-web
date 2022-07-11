@@ -1,0 +1,22 @@
+body{
+    background: var(--background-color);
+    display: grid;
+    grid-template-rows: 4rem 2fr 10rem;
+    min-height: 100vh;
+
+    /* Text Styles */
+    color: var(--primary-color);
+    font-family: 'Poppins';
+
+    
+}
+
+.extra-margin{
+    margin: 0 2rem 0 2rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}

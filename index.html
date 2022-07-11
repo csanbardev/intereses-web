@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis aficiones</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body class="grid">
+    <header>
+        <nav class="navbar extra-margin">
+            <div class="logo">Mis Intereses</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button-container">
+                <div class="menu-button"></div>
+            </label>
+
+            <ul class="menu">
+                <li><a href="#film-title">Películas</a></li>
+                <li><a href="#serie-title">Series</a></li>
+                <li><a href="#anime-title">Anime</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main class="extra-margin">
+        <h2 class="section-title" id="film-title">Películas favoritas</h2>
+        <section class="gallery" id="films">
+            
+        </section>
+        <section id="mv-buttons" class="buttons-container">
+            <button type="submit" class="btn primary-button" id="show-movies">Mostrar todas</button>
+            <button type="submit" class="btn primary-button" id="btn-mv-before">Anterior</button>
+            <button type="submit" class="btn primary-button" id="btn-mv-next">Siguiente</button>
+        </section>
+        
+        <h2 class="section-title" id="serie-title">Series favoritas</h2>
+        <section class="gallery" id="series">
+
+        </section>
+        <section id="sr-buttons" class="buttons-container">
+            <button type="submit" class="btn primary-button" id="show-series">Mostrar todas</button>
+            <button type="submit" class="btn primary-button" id="btn-sr-before">Anterior</button>
+            <button type="submit" class="btn primary-button" id="btn-sr-next">Siguiente</button>
+        </section>
+
+        <h2 class="section-title" id="anime-title">Anime favorito</h2>
+        <section class="gallery" id="animes">
+
+        </section>
+        <section id="an-buttons" class="buttons-container">
+            <button type="submit" class="btn primary-button" id="show-animes" >Mostrar todos</button>
+            <button type="submit" class="btn primary-button" id="btn-an-before">Anterior</button>
+            <button type="submit" class="btn primary-button" id="btn-an-next">Siguiente</button>
+        </section>
+
+
+    </main>
+    <footer>
+        <section class="info">
+            <span class="credit">Designed and Created by me (Cristian Sánchez)</span>
+        </section>
+        <nav class="secondary-nav">
+            <ul>
+                <li><a href="#film-title">Películas</a></li>
+                <li><a href="#serie-title">Series</a></li>
+                <li><a href="#anime-title">Anime</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+    <script src="/js/movieApi.js"></script>
+</body>
+
+</html>
